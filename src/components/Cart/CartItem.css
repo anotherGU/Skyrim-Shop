@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:wght@300;400;500;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.CartItem {
+  width: 100%;
+  border-bottom: 1px solid rgb(144, 148, 148);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.CartItem__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Merriweather", serif;
+  font-size: 1.17rem;
+}
+
+.CartItem__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.CartItem__price {
+  display: flex;
+  gap: 5px;
+}
+
+.CartItem__category {
+  color: rgb(144, 148, 148);
+}
+
+.CartItem__img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.CartItem__delete {
+  cursor: pointer;
+  font-size: 30px;
+}

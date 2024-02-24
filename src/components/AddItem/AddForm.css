@@ -1,0 +1,49 @@
+.add__input {
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.add__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.pick__type {
+  margin-top: 20px;
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.price__input {
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.button__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__button {
+  background-color: transparent;
+  border: solid 1px black;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin-top: 10px;
+  font-size: 16px;
+  transition: all 0.4s ease;
+}
+
+.form__button:hover {
+  background-color: black;
+  color: white;
+}
