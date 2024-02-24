@@ -29,19 +29,23 @@ const AddForm = ({ types, categories, add, setAdd }) => {
   };
 
   const handleSubmit = (event) => {
-
     event.preventDefault();
 
     const newItem = {
-        id: Date.now(), 
-        name: inputValue, 
-        category: inputCategory,
-        type: inputType,
-        price: +inputPrice,
-        image: inputImage,
-    }
-    
+      id: Date.now(),
+      name: inputValue,
+      category: inputCategory,
+      type: inputType,
+      price: +inputPrice,
+      image: inputImage,
+    };
+
     add(newItem);
+    setInputValue("");
+    setInputType("");
+    setInputCategory("");
+    setInputPrice("");
+    setInputImage("");
     setAdd(false);
   };
 
