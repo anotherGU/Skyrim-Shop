@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Skyrim-Shop/static/css/main.f4ba3b46.css",
+    "main.js": "/Skyrim-Shop/static/js/main.42556c21.js",
+    "static/media/septim.png": "/Skyrim-Shop/static/media/septim.4c21f4bba4e037ee7a13.png",
+    "index.html": "/Skyrim-Shop/index.html",
+    "main.f4ba3b46.css.map": "/Skyrim-Shop/static/css/main.f4ba3b46.css.map",
+    "main.42556c21.js.map": "/Skyrim-Shop/static/js/main.42556c21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4ba3b46.css",
+    "static/js/main.42556c21.js"
+  ]
+}
